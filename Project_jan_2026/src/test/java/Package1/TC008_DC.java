@@ -18,11 +18,11 @@ public class TC008_DC {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("First Name : Ravindra");
-		System.out.println("Last Name : Kumar");
+		System.out.println("First Name : Shivam");
+		System.out.println("Last Name : Saroj");
 		System.out.println("Gender : Male");
-		System.out.println("Age : 21");
-		System.out.println("Weight : 81");
+		System.out.println("Age : 22");
+		System.out.println("Weight : 62");
 
 		myMethod(10);
 

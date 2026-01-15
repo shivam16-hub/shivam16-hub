@@ -10,7 +10,7 @@ public class TC004_Scanner {
 		Scanner sc = new Scanner(System.in);
 		System.out.println("Enter Your Name:");
 		String name = sc.nextLine();
-		System.out.println("your name is :" +name);
+		System.out.println("Your name is :" +name);
 		
 	}
 

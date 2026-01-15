@@ -5,21 +5,21 @@ public class Hello {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("First Name : Shivam");
-		System.out.println("Last Name : Kumar");
+		System.out.println("Last Name : Saroj");
 		System.out.println("Gender : Male");
-		System.out.println("Age : 21");
-		System.out.println("Weight : 81");
+		System.out.println("Age : 22");
+		System.out.println("Weight : 62");
 		
 		int age=30;
 
 		if(age>18 & age <= 100)
 		{
-			System.out.println("you are eligible to vote");
+			System.out.println("You are eligible to vote");
 			}
 
 		else
 		{	
-			System.out.println("you are not eligible to vote");
+			System.out.println("You are not eligible to vote");
 		}
 
 	}

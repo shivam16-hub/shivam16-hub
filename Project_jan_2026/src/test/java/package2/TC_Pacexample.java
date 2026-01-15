@@ -1,4 +1,4 @@
-package pacakge2;
+package package2;
 
 
 import Package1.TC002;

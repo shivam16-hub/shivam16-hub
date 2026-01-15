@@ -6,8 +6,8 @@ import java.util.Scanner;
 public class Lab8 {
     public static void main(String[] args) {
         // Same as Lab7: hardcode name and gender, take mobile from input
-        String firstName = "Ravindra";
-        String lastName = "Manjhu";
+        String firstName = "Shivam";
+        String lastName = "Saroj";
         Gender gender = Gender.MALE; // enum instead of char
 
         Scanner sc = new Scanner(System.in);

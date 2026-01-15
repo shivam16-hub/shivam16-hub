@@ -7,8 +7,8 @@ public class Lab7 {
 
     public static void main(String[] args) {
 
-        String firstName = "Ravindra";
-        String lastName = "Manjhu";
+        String firstName = "Shivam";
+        String lastName = "Saroj";
         Gender gender = Gender.MALE; // use enum instead of char
 
         Scanner sc = new Scanner(System.in);
@@ -22,9 +22,7 @@ public class Lab7 {
 
         System.out.println("First Name : " + obj.getFirstName());
         System.out.println("Last Name  : " + obj.getLastName());
-        System.out.println("Gender     : " + obj.getGender());          // prints MALE/FEMALE/OTHER
-        // If you prefer 'M'/'F'/'O':
-        // System.out.println("Gender     : " + obj.getGender().getCode());
+        System.out.println("Gender     : " + obj.getGender());
 
         System.out.println("Mobile     : " + obj.getMobile());
     }

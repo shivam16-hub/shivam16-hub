@@ -5,7 +5,7 @@ public class Lab6 {
 
     public static void main(String[] args) {
 
-        Person obj = new Person("Ravindra", "Manjhu", Gender.MALE);
+        Person obj = new Person("Shivam", "Saroj", Gender.MALE);
 
         System.out.println("Person's Details :");
         System.out.println("_____________________________________________________________________________");
