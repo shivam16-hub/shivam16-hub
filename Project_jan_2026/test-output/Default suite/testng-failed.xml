@@ -3,19 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="seleniumPackage.TC_TestNg">
+      <class name="com.orhrm.tests.AutomationSignup">
         <methods>
-          <include name="afterClass"/>
-          <include name="afterTest"/>
-          <include name="beforeTest"/>
-          <include name="afterSuite"/>
-          <include name="beforeSuite"/>
-          <include name="f" invocation-numbers="0 1"/>
-          <include name="afterMethod"/>
-          <include name="beforeClass"/>
-          <include name="beforeMethod"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="tC1"/>
         </methods>
-      </class> <!-- seleniumPackage.TC_TestNg -->
+      </class> <!-- com.orhrm.tests.AutomationSignup -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
